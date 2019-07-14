@@ -1,0 +1,95 @@
+@import 'bootstrap.min.css';
+@import 'reset.min.css';
+body{
+    background-color: rgb(250, 250, 250);
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+canvas {
+    display: block;
+    position: absolute;
+    top: 0px;
+    z-index: -888;
+  }
+  
+  #particles-js {
+
+    width: 100%;
+    height: 100%;
+  }
+h1,h2,h3,h4,h5{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    color:#191947;
+}
+.mt-10{
+    margin-top:10vh;
+}
+.avatar{
+    border-radius: 150px;
+    width: 160px;
+    height: auto;
+    max-width: 100%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.18);
+}
+.name{
+    color:rgb(92, 92, 116);
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.tagbox{
+    margin:20px;
+    span{
+        background-color: rgb(69, 63, 102);
+        color:#fff;
+        padding: 5px 12px;
+        margin:3px 1px;
+        border-radius: 20px;
+        display: inline-block;
+    }
+}
+.connect{
+    i{
+        font-size: 26px;
+        margin:14px;
+        color:rgb(201, 201, 201);
+        transition: 0.3s;
+        display: inline-block;
+        &:hover{
+            color:rgb(91, 91, 129);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+    
+ }
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+    
+ }
+
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    
+}
+
+
+@media (max-width: 575.98px) { 
+    
+    
+ }

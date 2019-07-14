@@ -1,0 +1,69 @@
+@import 'bootstrap.min.css';
+@import 'reset.min.css';
+body {
+  background-color: #fafafa;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0px;
+  z-index: -888;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 800;
+  color: #191947;
+}
+
+.mt-10 {
+  margin-top: 10vh;
+}
+
+.avatar {
+  border-radius: 150px;
+  width: 160px;
+  height: auto;
+  max-width: 100%;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.18);
+}
+
+.name {
+  color: #5c5c74;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.tagbox {
+  margin: 20px;
+}
+.tagbox span {
+  background-color: #453f66;
+  color: #fff;
+  padding: 5px 12px;
+  margin: 3px 1px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.connect i {
+  font-size: 26px;
+  margin: 14px;
+  color: #c9c9c9;
+  transition: 0.3s;
+  display: inline-block;
+}
+.connect i:hover {
+  color: #5b5b81;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
