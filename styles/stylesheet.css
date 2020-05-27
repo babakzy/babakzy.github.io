@@ -1,10 +1,14 @@
 @import 'bootstrap.min.css';
 @import 'reset.min.css';
 body {
-  background-color: #1c0c30;
+  background-color: white;
   font-family: "Ubuntu", sans-serif;
   height: 100vh;
   width: 100vw;
+}
+
+p {
+  font-family: "Ubuntu", sans-serif;
 }
 
 canvas {
@@ -20,9 +24,13 @@ canvas {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Cuprum", sans-serif;
   font-weight: 800;
-  color: #f1f1ff;
+  color: #000000;
+}
+
+h1 {
+  font-style: italic;
 }
 
 .mt-10 {
@@ -38,36 +46,45 @@ h1, h2, h3, h4, h5 {
   width: 160px;
   height: auto;
   max-width: 100%;
-  box-shadow: 0px 0px 44px rgba(232, 250, 255, 0.25);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
 }
 
 .name {
-  color: #dfdfdf;
-  font-weight: 300;
-  font-family: "Roboto", sans-serif;
+  color: #202020;
+  font-weight: 400;
+  font-family: "Cuprum", sans-serif;
 }
 
 .tagbox {
   margin: 20px;
 }
 .tagbox span {
-  background-color: #5a5675;
+  background-color: #3718ff;
   color: #fff;
-  padding: 5px 12px;
-  margin: 3px 1px;
+  padding: 6px 14px;
+  padding-bottom: 7px;
+  margin: 4px 2px;
   border-radius: 20px;
   display: inline-block;
+  transition: 0.15s;
+}
+.tagbox span:hover {
+  background-color: #4141ff;
+}
+.tagbox .personality {
+  background-color: #f00070;
+}
+.tagbox .interested {
+  background-color: #00ccf0;
 }
 
-.connect i {
-  font-size: 26px;
+.link-icon {
+  width: 30px;
   margin: 14px;
-  color: #dfdfdf;
-  transition: 0.3s;
-  display: inline-block;
+  transition: 0.2s;
 }
-.connect i:hover {
-  color: #524bbb;
+.link-icon:hover {
+  filter: invert(27%) sepia(51%) saturate(2178%) hue-rotate(211deg) brightness(120%) contrast(97%);
 }
 
 @media (max-width: 767.98px) {
@@ -76,13 +93,14 @@ h1, h2, h3, h4, h5 {
   }
 
   html {
-    font-size: 12px;
+    font-size: 13px;
   }
 
-  .connect i {
-    font-size: 19px;
-    margin: 10px;
+  .link-icon {
+    width: 28px;
+    margin: 8px;
   }
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
+
