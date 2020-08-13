@@ -1,5 +1,4 @@
 @import 'bootstrap.min.css';
-@import 'reset.min.css';
 body {
   background-color: white;
   font-family: "Ubuntu", sans-serif;
@@ -86,7 +85,27 @@ h1 {
 .link-icon:hover {
   filter: invert(27%) sepia(51%) saturate(2178%) hue-rotate(211deg) brightness(120%) contrast(97%);
 }
-
+.mywork{
+  padding: 14px;
+  margin: 4px;
+  border: 1px dashed gray;
+  border-radius: 14px;
+}
+.mywork span{
+  display: inline-block;
+  background-color: antiquewhite;
+  padding: 1px 7px;
+  font-size: 12px;
+  border-radius: 50px;
+}
+.work-link{
+  margin-top: -5px;
+  display: block;
+}
+.modal-body .col-6{
+  padding-right: 8px!important;
+  padding-left: 8px!important;
+}
 @media (max-width: 767.98px) {
   .avatar {
     width: 120px;
