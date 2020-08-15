@@ -1,4 +1,7 @@
 @import 'bootstrap.min.css';
+/* 
+   DO NOT LOOK AT CODE. IT IS NOT CLEAN. "Mechanic’s car is leaking!"
+*/
 *{
   font-family: "Ubuntu", sans-serif;
 }
@@ -127,7 +130,7 @@ button:focus {
   outline: none;
 }
 .call-btn{
-  background-color: #2456fc;
+  background-color: #0038f0;
   padding: 10px 24px;
   border-radius: 40px;
   color: #fff;
@@ -137,11 +140,11 @@ button:focus {
   
 }
 .call-btn:hover{
-  background-color: #0c3cd6;
+  background-color: #002dc2;
   color: #fff;
 }
 .work-btn{
-  background-color: #ff145b;
+  background-color: #ec0047;
   font-weight: 500;
   padding: 10px 24px;
   border-radius: 40px;
@@ -150,7 +153,7 @@ button:focus {
   font-size: 18px;
 }
 .work-btn:hover{
-  background-color: #ec0047;
+  background-color: #bb0038;
 }
 @media (max-width: 767.98px) {
   .avatar {
