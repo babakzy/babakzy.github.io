@@ -47,7 +47,7 @@ h1 {
 }
 
 .nick {
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 .avatar {
@@ -78,10 +78,10 @@ h1 {
   transition: 0.15s;
   font-size: 14px;
 }
-.tagbox span:hover {
+/* .tagbox span:hover {
   background-color: #afa6bd;
   color:#fff
-}
+} */
 .tagbox .personality {
   background-color: gainsboro;
 }
@@ -96,7 +96,7 @@ h1 {
   opacity: 0.6;
 }
 .link-icon:hover {
-  filter: invert(27%) sepia(51%) saturate(2178%) hue-rotate(211deg) brightness(120%) contrast(97%);
+  filter: invert(27%) sepia(51%) saturate(4078%) hue-rotate(211deg) brightness(120%) contrast(97%);
 }
 .mywork{
   padding: 14px;
@@ -119,6 +119,13 @@ h1 {
   padding-right: 8px!important;
   padding-left: 8px!important;
 }
+.modal-content{
+  border: none;
+    border-radius: 22px;
+}
+button:focus {
+  outline: none;
+}
 .call-btn{
   background-color: #2456fc;
   padding: 10px 24px;
@@ -128,14 +135,20 @@ h1 {
   font-weight: 500;
   
 }
+.call-btn:hover{
+  background-color: #0c3cd6;
+  color: #fff;
+}
 .work-btn{
   background-color: #ff145b;
-
+  font-weight: 500;
   padding: 10px 24px;
   border-radius: 40px;
   color: #fff!important;
   cursor: pointer;
-
+}
+.work-btn:hover{
+  background-color: #ec0047;
 }
 @media (max-width: 767.98px) {
   .avatar {
