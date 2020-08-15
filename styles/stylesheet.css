@@ -1,4 +1,7 @@
 @import 'bootstrap.min.css';
+*{
+  font-family: "Ubuntu", sans-serif;
+}
 body {
   background-color: white;
   font-family: "Ubuntu", sans-serif;
@@ -9,7 +12,9 @@ body {
 p {
   font-family: "Ubuntu", sans-serif;
 }
-
+a:hover{
+  text-decoration: none;
+}
 canvas {
   display: block;
   position: absolute;
@@ -28,6 +33,11 @@ h1, h2, h3, h4, h5 {
   color: #000000;
 }
 
+.modal h1, .modal h2, .modal h3, .modal h4, .modal h5 {
+  font-family: "Ubuntu", sans-serif!important;
+  font-weight: 500;
+  color: #000000;
+}
 h1 {
   font-style: italic;
 }
@@ -45,7 +55,7 @@ h1 {
   width: 160px;
   height: auto;
   max-width: 100%;
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 40px rgba(0, 2, 114, 0.3);
 }
 
 .name {
@@ -58,29 +68,32 @@ h1 {
   margin: 20px;
 }
 .tagbox span {
-  background-color: #3718ff;
-  color: #fff;
-  padding: 6px 14px;
-  padding-bottom: 7px;
+  background-color: gainsboro;
+  color: rgb(59, 56, 83);
+  padding: 4px 12px;
+  padding-bottom: 3px;
   margin: 4px 2px;
   border-radius: 20px;
   display: inline-block;
   transition: 0.15s;
+  font-size: 14px;
 }
 .tagbox span:hover {
-  background-color: #4141ff;
+  background-color: #afa6bd;
+  color:#fff
 }
 .tagbox .personality {
-  background-color: #f00070;
+  background-color: gainsboro;
 }
 .tagbox .interested {
-  background-color: #00ccf0;
+  background-color: gainsboro;
 }
 
 .link-icon {
-  width: 30px;
+  width: 24px;
   margin: 14px;
   transition: 0.2s;
+  opacity: 0.6;
 }
 .link-icon:hover {
   filter: invert(27%) sepia(51%) saturate(2178%) hue-rotate(211deg) brightness(120%) contrast(97%);
@@ -106,6 +119,24 @@ h1 {
   padding-right: 8px!important;
   padding-left: 8px!important;
 }
+.call-btn{
+  background-color: #2456fc;
+  padding: 10px 24px;
+  border-radius: 40px;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif!important;
+  font-weight: 500;
+  
+}
+.work-btn{
+  background-color: #ff145b;
+
+  padding: 10px 24px;
+  border-radius: 40px;
+  color: #fff!important;
+  cursor: pointer;
+
+}
 @media (max-width: 767.98px) {
   .avatar {
     width: 120px;
@@ -116,8 +147,8 @@ h1 {
   }
 
   .link-icon {
-    width: 28px;
-    margin: 8px;
+    width: 23px;
+    margin: 11px;
   }
 }
 
