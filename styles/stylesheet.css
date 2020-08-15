@@ -133,7 +133,7 @@ button:focus {
   color: #fff;
   font-family: "Ubuntu", sans-serif!important;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 18px;
   
 }
 .call-btn:hover{
@@ -147,7 +147,7 @@ button:focus {
   border-radius: 40px;
   color: #fff!important;
   cursor: pointer;
-  font-size: 19px;
+  font-size: 18px;
 }
 .work-btn:hover{
   background-color: #ec0047;
